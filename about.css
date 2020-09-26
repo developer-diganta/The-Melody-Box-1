@@ -7,7 +7,7 @@ background-blend-mode: multiply;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
+padding-bottom: 2%;
 }
 
 #title{
@@ -37,6 +37,8 @@ font-size:20px;
     border-left-width: 3rem;
     width:80%;
     margin:auto;
+    color:black;
+    padding-bottom:0.7%;
 
 }
 li{
@@ -44,7 +46,7 @@ li{
 }
 a{
   text-decoration: none;
-  color:black;
+  color:grey;
 
 }
 a:hover{
@@ -55,9 +57,9 @@ a:active{
   text-decoration: none;
   color:black;
 }
-a:visited{
+a:visited hover{
   text-decoration: none;
-  color:black;
+  color:grey;
 }
 
 
