@@ -1,21 +1,19 @@
 body{
   min-height:100%;
   background: url(https://images.unsplash.com/photo-1496293455970-f8581aae0e3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1001&q=80) rgba(88,28,12,0.5) no-repeat center center fixed;
-background-blend-mode: multiply;
+  background-blend-mode: multiply;
   text-align: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-padding-bottom: 2%;
+  padding-bottom: 2%;
 }
 
 #title{
-
   margin:auto;
   margin-top:2%;
   width:50%;
-
   border-bottom: solid white 2px;
   font-size:70px;
   text-align: center;
@@ -24,55 +22,56 @@ padding-bottom: 2%;
   color:#fca652;
   text-shadow: 4px 4px 10px #ca5116;
   font-family: 'Great Vibes', cursive;
-
 }
+
 .ABOUT{
   text-align: center;
   font-family: 'Bree Serif', serif;
-font-weight: 400;
-font-size:20px;
-    background-color: rgba(202,81,22,0.6);
-    border-left-style:solid;
-    border-color:#ca5116;
-    border-left-width: 3rem;
-    width:80%;
-    margin:auto;
-    color:black;
-    padding-bottom:0.7%;
-
+  font-weight: 400;
+  font-size:20px;
+  background-color: rgba(202,81,22,0.6);
+  border-left-style:solid;
+  border-color:#ca5116;
+  border-left-width: 3rem;
+  width:80%;
+  margin:auto;
+  color:black;
+  padding-bottom:0.7%;
 }
+
 li{
   text-align:left;
 }
+
 a{
   text-decoration: none;
   color:grey;
-
 }
+
 a:hover{
   text-decoration: none;
   color:black;
 }
+
 a:active{
   text-decoration: none;
   color:black;
 }
+
 a:visited hover{
   text-decoration: none;
   color:grey;
 }
 
-
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(88,22,12,0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
+
   .nav-link{
     font-size: 26px;
     font-weight: 800;
     text-shadow: 2px 2px 8px #ac4b1c;
-
     font-family: 'Great Vibes', cursive;
-
   }
 
   .custom-toggler.navbar-toggler {
@@ -83,9 +82,11 @@ a:visited hover{
       color:#ffd57e;
       opacity:0.7;
  }
+
  .nav-color:hover{
      opacity:1;
  }
+
  .activ{
     opacity:1;
  }

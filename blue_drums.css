@@ -294,11 +294,7 @@ body{
       text-shadow: 0 0 2px rgb(255,255,255), 0 0 14px rgb(78,78,255), 0 0 30px rgb(78,78,255);
        opacity:1;
     }
-    /* .navbar-brand-color{
-        color:rgb(52,255,27);
-        font-size: 3rem;
-    } */
-
+    
     .nav-item{
         margin-right: 10px;
     }
