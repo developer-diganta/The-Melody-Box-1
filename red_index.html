@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="favicon.png" type="image/gif">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Melody Box</title>
+    <!-- Font Awesome  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--  JS, Popper.js, and jQuery -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+          <script src="https://kit.fontawesome.com/7327b5ea6e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="dark_music2.css">
+</head>
+<body>
+
+<h1 id="title"><span>The Melody Box</span><span><i class="fa fa-music" aria-hidden="true"></i></span></h1>
+
+    <p style="margin-top:7%"></p>
+    <!-- The social media icon bar -->
+    <div class="icon-bar">
+      <a href="https://istebits.com/" target="_blank"><img src="istebits.png" alt="ISTEBITS" class="abti"></img></a>
+      <a href="dark_about.html"><i class="fa fa-info-circle abt" aria-hidden="true"></i></a>
+      <a href="green_index.html"><i class="fas fa-music abtim" style="color:green;"></i></a>
+      <a href="red_index.html"><i class="fas fa-music abtim" style="color:red;"></i></a>
+      <a href="blue_index.html"><i class="fas fa-music abtim" style="color:blue;"></i></a>
+
+
+</div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="round_img">
+              <a href="dark_drums.html">  <img src="drum.jpg" class="img-fluid " alt="drum image"></a>
+            </div>
+          </div>
+            <div class="col-md-4">
+              <div class="round_img">
+                <a href="dark_xylophone.html">  <img src="https://cdn.pixabay.com/photo/2016/11/23/15/36/close-up-1853572_1280.jpg" class="img-fluid " alt="xylophone image"></a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="round_img">
+                  <a href="dark_piano.html"><img src="piano.jfif" class="img-fluid " alt="guitar image"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-analytics.js"></script>
+
+        <script>
+          // Your web app's Firebase configuration
+          // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+          var firebaseConfig = {
+            apiKey: "AIzaSyCJtfZrVoE4UHKhmTAbFYnf8N7QgIQbJVQ",
+            authDomain: "the-melody-box.firebaseapp.com",
+            databaseURL: "https://the-melody-box.firebaseio.com",
+            projectId: "the-melody-box",
+            storageBucket: "the-melody-box.appspot.com",
+            messagingSenderId: "884308969823",
+            appId: "1:884308969823:web:1295bd2b47bca101494eea",
+            measurementId: "G-RNR61GL7R5"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+          firebase.analytics();
+        </script>
+ </body>
+</html>

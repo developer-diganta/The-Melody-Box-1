@@ -1,0 +1,261 @@
+body{min-height:100%;
+
+    background: url(background_piano.jpg) rgba(13, 125, 0, 0.5) no-repeat center center fixed;
+
+    background-blend-mode: multiply;
+
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position:relative;
+    }
+
+    @media only screen and (max-width: 500px){
+        .piano_button{
+            margin-top: 20%;
+        }
+    }
+
+    .wk{
+        width: 60px;
+        height: 240px;
+        background-image: linear-gradient(rgb(7,67,0), rgb(9,86,0), rgb(19,184,0), rgb(51,255,27));
+        border: 1px solid rgb(41,0,0);
+        border-radius: 8px 8px 8px 8px;
+        margin-left: -6px;
+        font-weight: 700;
+        color: #FFF;
+        outline: none;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+        padding-top: 200px;
+    }
+
+    .wkact{
+      background-image: linear-gradient(rgb(15,145,0), rgb(24,224,0), rgb(104,255,86));
+    }
+    .bk{
+        position: absolute;
+        width: 48px;
+        margin-left: -18px;
+        height: 200px;
+        /* left: 1px; */
+        background-image: linear-gradient(#000000, rgb(19,19,19), rgb(49,49,49), grey);
+        border: 2px solid #000000;
+        border-radius: 4px 4px 4px 4px;
+        outline: none;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+        color: #FFF;
+    }
+
+    .bkact{
+        background-image: linear-gradient(#303030, slategrey);
+    }
+
+
+
+    @media only screen and (max-width: 700px)
+    {
+        .wk{
+            width: 40px;
+            height: 180px;
+            padding-top: 160px;
+        }
+
+        .bk{
+            width: 28px;
+            height: 140px;
+        }
+    }
+
+    #title{
+        margin:auto;
+        margin-top:2%;
+        width:50%;
+        border-bottom: solid rgb(22,204,0) 2px;
+        font-size:70px;
+        text-align: center;
+        padding:2%;
+        font-weight: 1000;
+        color:#111;
+        font-family: 'Great Vibes', cursive;
+        animation: animate 2s ease infinite;
+      }
+
+      @keyframes animate{
+        0%{
+            color: rgb(139,255,125);
+            text-shadow: 0 0 2px rgb(13,125,0), 0 0 14px rgb(13,125,0), 0 0 30px rgb(13,125,0);
+        }
+        10%{
+            color: rgb(139,255,125);
+            text-shadow: 0 0 2px rgb(13,125,0), 0 0 14px rgb(13,125,0), 0 0 30px rgb(13,125,0);
+        }
+        20%{
+            color: rgb(174,255,165);
+            text-shadow: 0 0 2px rgb(24,226,0), 0 0 14px rgb(27,251,0), 0 0 30px rgb(24,226,0);
+        }
+        30%{
+            color: rgb(192,255,184);
+            text-shadow: 0 0 2px rgb(34,255,8), 0 0 14px rgb(34,255,8), 0 0 30px rgb(34,255,8);
+        }
+        40%{
+            color: rgb(209,255,204);
+            text-shadow: 0 0 6px rgb(51,255,27), 0 0 14px rgb(51,255,27), 0 0 30px rgb(51,255,27);
+        }
+        50%{
+            color: rgb(209,255,204);
+            text-shadow: 0 0 6px rgb(51,255,27), 0 0 14px rgb(51,255,27), 0 0 30px rgb(51,255,27);
+        }
+        60%{
+            color: rgb(209,255,204);
+            text-shadow: 0 0 6px rgb(51,255,27), 0 0 14px rgb(51,255,27), 0 0 30px rgb(51,255,27);
+        }
+        70%{
+            color: rgb(192,255,184);
+            text-shadow: 0 0 2px rgb(34,255,8), 0 0 14px rgb(34,255,8), 0 0 30px rgb(34,255,8);
+        }
+        80%{
+            color: rgb(174,255,165);
+            text-shadow: 0 0 2px rgb(24,226,0), 0 0 14px rgb(27,251,0), 0 0 30px rgb(24,226,0);
+        }
+        90%{
+            color: rgb(139,255,125);
+            text-shadow: 0 0 2px rgb(13,125,0), 0 0 14px rgb(13,125,0), 0 0 30px rgb(13,125,0);
+        }
+        100%{
+            color: rgb(139,255,125);
+            text-shadow: 0 0 2px rgb(13,125,0), 0 0 14px rgb(13,125,0), 0 0 30px rgb(13,125,0);
+        }
+      }
+
+
+
+
+  @media only screen and (max-width: 500px){
+      /* box-sizing: border-box; */
+      #title{
+      margin:auto;
+      margin-top:2%;
+      width:40%;
+
+      border-bottom: solid rgb(22,204,0)2px;
+
+      font-size: 325%;
+      text-align: center;
+      padding:2%;
+      font-weight: 1000;
+      color:white;
+      /* text-shadow: 2px 2px 8px #FF0000; */
+
+      font-family: 'Great Vibes', cursive;
+
+    }
+  }
+
+
+
+  .stitle{
+
+    font-family: 'Shadows Into Light', cursive;
+
+    width:50%;
+    margin:3% auto;
+    font-size: 60px;
+    font-weight: 1000;
+    text-align: center;
+    padding:2%;
+    color: rgb(15,190,0);
+  }
+
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  .abt{
+    color:rgb(15,145,0);
+    font-size:30px;
+  }
+  .abt:hover{
+    font-size:36px;
+    transition-delay: .2;
+  }
+  .abti{
+    width:50px;
+  }
+  .abti:hover{
+    width:60px;
+
+    transition-delay: .2;
+  }
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(173,239,209,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      }
+      .nav-link{
+        font-size: 26px;
+        font-weight: 800;
+        text-shadow: 2px 2px 8px rgb(52,255,90);
+
+        font-family: 'Great Vibes', cursive;
+
+      }
+
+      .custom-toggler .navbar-toggler-icon {
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(173,239,209,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+        .nav-link{
+          font-size: 26px;
+          font-weight: 800;
+          text-shadow: 2px 2px 8px rgb(52,255,90);
+
+          font-family: 'Great Vibes', cursive;
+
+        }
+
+        .custom-toggler.navbar-toggler {
+          border-color:rgb(52,255,27);
+        }
+
+        .nav-color{
+          color: rgb(209,255,204);
+          text-shadow: 0 0 6px rgb(51,255,27), 0 0 14px rgb(51,255,27), 0 0 30px rgb(51,255,27);
+       }
+       .nav-color:hover{
+           opacity:1;
+       }
+       .activ{
+         color:rgb(0,255,0);
+          opacity:1;
+       }
+       .navbar-brand-color{
+           color:rgb(52,255,27);
+           font-size: 3rem;
+       }
+     #microphone{
+       font-size:0.8em;
+       cursor: pointer;
+     }
+     .abtim{
+       font-size:20px;
+     }
+     .abtim:hover{
+       font-size:30px;
+
+       transition-delay: .2;
+     }

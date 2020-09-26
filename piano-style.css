@@ -1,0 +1,170 @@
+body{min-height:100%;
+
+background: url(https://images.unsplash.com/photo-1514119412350-e174d90d280e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) rgba(88,28,12,0.5) no-repeat center center fixed;
+
+background-blend-mode: multiply;
+
+text-align: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+position:relative;
+}
+
+
+.wk{
+    width: 60px;
+    height: 240px;
+    background-color: #FFF;
+    border: 1px solid grey;
+    border-radius: 8px 8px 8px 8px;
+    margin-left: -4px;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding-top: 200px;
+}
+
+.wkact{
+    background-color: lavender;
+}
+
+.bk{
+    position: absolute;
+    width: 48px;
+    height: 200px;
+    /* left: 1px; */
+    background-image: linear-gradient(#000000, #303030);
+    border: 2px solid #000000;
+    border-radius: 4px 4px 14px 4px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    color: #FFF;
+}
+
+.bkact{
+    background-image: linear-gradient(#303030, slategrey);
+}
+
+
+
+@media only screen and (max-width: 700px)
+{
+    .wk{
+        width: 40px;
+        height: 180px;
+        padding-top: 160px;
+    }
+
+    .bk{
+        width: 28px;
+        height: 140px;
+    }
+}
+
+#title{
+
+  margin:auto;
+  margin-top:2%;
+  width:50%;
+
+  border-bottom: solid white 2px;
+  font-size:70px;
+  text-align: center;
+  padding:2%;
+  font-weight: 1000;
+  color:#fca652;
+  text-shadow: 4px 4px 10px #ca5116;
+  font-family: 'Great Vibes', cursive;
+
+}
+.stitle{
+  font-family: 'Shadows Into Light', cursive;
+  width:50%;
+  margin:5% auto;
+  font-size:50px;
+  font-weight: 800;
+  text-align: center;
+  padding:2%;
+  color:#ffefa0;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+.abt{
+  color:#fca652;font-size:30px;
+
+}
+.abt:hover{
+  font-size:36px;
+  transition-delay: .2;
+}
+.abti{
+  width:50px;
+}
+.abti:hover{
+  width:60px;
+
+  transition-delay: .2;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(88,22,12,0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .nav-link{
+    font-size: 26px;
+    font-weight: 800;
+    text-shadow: 2px 2px 8px #ac4b1c;
+
+    font-family: 'Great Vibes', cursive;
+
+  }
+
+  .custom-toggler.navbar-toggler {
+    border-color:#ffd57e;
+  }
+
+  .nav-color{
+      color:#ffd57e;
+      opacity:0.7;
+ }
+ .nav-color:hover{
+     opacity:1;
+ }
+ .activ{
+    opacity:1;
+ }
+ #microphone{
+   font-size:0.8em;
+   cursor: pointer;
+ }
+
+ .abtim{
+   font-size:20px;
+ }
+ .abtim:hover{
+   font-size:30px;
+
+   transition-delay: .2;
+ }

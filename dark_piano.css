@@ -1,0 +1,228 @@
+body{min-height:100%;
+
+    background: url(https://images.unsplash.com/photo-1554446422-c4d46271ab85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80) rgba(187, 0, 0,0.6) no-repeat center center fixed;
+
+    background-blend-mode: multiply;
+
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position:relative;
+    }
+
+
+    .wk{
+        width: 60px;
+        height: 240px;
+        background-image: linear-gradient(rgb(61,0,0), rgb(217,0,0), rgb(255,2,2));
+        border: 1px solid rgb(41,0,0);
+        border-radius: 8px 8px 8px 8px;
+        margin-left: -6px;
+        font-weight: 700;
+        color: #FFF;
+        outline: none;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+        padding-top: 200px;
+    }
+
+    .wkact{
+      background-image: linear-gradient(rgb(255,41,41), rgb(255,61,61), rgb(255,119,119));
+    }
+    .bk{
+        position: absolute;
+        width: 48px;
+        margin-left: -18px;
+        height: 200px;
+        /* left: 1px; */
+        background-image: linear-gradient(#000000, #303030);
+        border: 2px solid #000000;
+        border-radius: 4px 4px 4px 4px;
+        outline: none;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+        color: #FFF;
+    }
+
+    .bkact{
+        background-image: linear-gradient(#303030, slategrey);
+    }
+
+
+
+    @media only screen and (max-width: 700px)
+    {
+        .wk{
+            width: 40px;
+            height: 180px;
+            padding-top: 160px;
+        }
+
+        .bk{
+            width: 28px;
+            height: 140px;
+        }
+    }
+
+    #title{
+      border-bottom: solid rgb(237,0,0) 2px;
+      margin:auto;
+      margin-top:2%;
+      width:50%;
+      font-size:70px;
+      text-align: center;
+      padding:2%;
+      font-weight: 1000;
+      color:#111;
+      font-family: 'Great Vibes', cursive;
+      animation: animate 2s ease infinite;
+    }
+
+
+    h1 span{
+      /* position: absolute; */
+      color:#111;
+      text-shadow: 2px 4px 8px rgba(255,0,0,1);
+      font-family: 'Great Vibes', cursive;
+      animation: creation 2s ease infinite;
+    }
+
+    @keyframes creation{
+      0%{
+        color: rgb(255,80,80);
+        text-shadow: 0 0 4px rgb(237,0,0), 0 0 10px rgb(237,0,0), 0 0 160px rgb(237,0,0), 0 0 20px rgb(237,0,0);
+      }
+     10%{
+      color: rgb(255,80,80);
+      text-shadow: 0 0 4px rgb(237,0,0), 0 0 10px rgb(237,0,0), 0 0 160px rgb(237,0,0), 0 0 20px rgb(237,0,0);
+      }
+      20%{
+        color: rgb(255,80,80);
+        text-shadow: 0 0 7px rgb(237,0,0), 0 0 14px rgb(237,0,0), 0 0 30px rgb(237,0,0), 0 0 40px rgb(237,0,0);
+      }
+      30%{
+        color:rgb(255,119,119);
+        text-shadow: 0 0 7px rgb(255,2,2), 0 0 14px rgb(255,21,21), 0 0 30px rgb(255,41,41), 0 0 40px rgb(255,61,61);
+      }
+      40%{
+        color: rgb(255,157,157);
+        text-shadow: 0 0 7px rgb(255,2,2), 0 0 14px rgb(255,21,21), 0 0 30px rgb(255,41,41), 0 0 40px rgb(255,61,61);
+      }
+      50%{
+        color: rgb(255,177,177);
+        text-shadow: 0 0 7px rgb(255,2,2), 0 0 14px rgb(255,21,21), 0 0 30px rgb(255,41,41), 0 0 40px rgb(255,61,61);
+      }
+      60%{
+        color: rgb(255,177,177);
+        text-shadow: 0 0 7px rgb(255,2,2), 0 0 14px rgb(255,21,21), 0 0 30px rgb(255,41,41), 0 0 40px rgb(255,61,61);
+      }
+      70%{
+        color: rgb(255,157,157);
+        text-shadow: 0 0 7px rgb(255,2,2), 0 0 14px rgb(255,21,21), 0 0 30px rgb(255,41,41), 0 0 40px rgb(255,61,61);
+      }
+      80%{
+        color: rgb(255,119,119);
+        text-shadow: 0 0 7px rgb(255,2,2), 0 0 14px rgb(255,21,21), 0 0 30px rgb(255,41,41), 0 0 40px rgb(255,61,61);
+      }
+      90%{
+        color: rgb(255,80,80);
+        text-shadow: 0 0 7px rgb(255,2,2), 0 0 14px rgb(255,21,21), 0 0 30px rgb(255,41,41), 0 0 40px rgb(255,61,61);
+      }
+      100%{
+        color: rgb(255,80,80);
+        text-shadow: 0 0 7px rgb(255,2,2), 0 0 14px rgb(255,21,21), 0 0 30px rgb(255,41,41), 0 0 40px rgb(255,61,61);
+      }
+    }
+
+    .stitle{
+
+      font-family: 'Shadows Into Light', cursive;
+
+      width:50%;
+      margin:3% auto;
+      font-size: 50px;
+      font-weight: 800;
+      text-align: center;
+      padding:2%;
+      color:rgb(157, 0, 0);
+    }
+
+    .icon-bar {
+      position: fixed;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+
+    /* Style the icon bar links */
+    .icon-bar a {
+      display: block;
+      text-align: center;
+
+      transition: all 0.3s ease;
+      color: white;
+      font-size: 20px;
+    }
+    .abt{
+        color:rgb(157, 0, 0);
+        font-size:30px;
+    }
+    .abt:hover{
+      font-size:36px;
+      transition-delay: .2;
+    }
+
+    .abti{
+      width:50px;
+    }
+    .abti:hover{
+      width:60px;
+
+      transition-delay: .2;
+    }
+
+
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(157,0,0,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      }
+      .nav-link{
+        font-size: 26px;
+        font-weight: 800;
+        text-shadow: 2px 2px 8px rgb(157,0,0);
+
+        font-family: 'Great Vibes', cursive;
+
+      }
+
+      .custom-toggler.navbar-toggler {
+        border-color:rgb(157,0,0);
+      }
+
+      .nav-color{
+          color:rgb(157,0,0);
+          opacity:0.7;
+     }
+     .nav-color:hover{
+         opacity:1;
+     }
+     .activ{
+       color: rgb(255,255,255);
+       text-shadow: 0 0 7px rgb(255,2,2), 0 0 14px rgb(255,21,21), 0 0 30px rgb(255,41,41), 0 0 40px rgb(255,61,61);
+     }
+
+     #microphone{
+       font-size:0.8em;
+       cursor: pointer;
+     }
+
+     .abtim{
+       font-size:20px;
+     }
+     .abtim:hover{
+       font-size:30px;
+
+       transition-delay: .2;
+     }
